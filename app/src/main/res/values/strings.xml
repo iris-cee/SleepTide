@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">SleepTide</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_countdown">SleepTide</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="ST_version_num">Version 1.0</string>
+    <string name="ST_prefs_mainActivity">SleepTide_main_prefs</string>
+    <string name="ST_version_code">SleepTide_version</string>
+    <string name="Sender">first_time_sender</string>
+
+    <string name="set_button">SET</string>
+    <string name="cancel_button">CANCEL</string>
+    <string name="ok_button">OK</string>
+    <string name="alert">Alert</string>
+    <string name="no_accel">This device does not have an accelerometer. Please use the fixed countdown.</string>
+    <string name="reminder">Reminder</string>
+    <string name="no_active_music">No music is currently playing. If desired, please start your music.</string>
+
+    <string name="ST_wakelock">SleepTide_wakelock</string>
+    <string name="countdown_val">countdown_val</string>
+
+    <string name="settings_frag">settings</string>
+    <string name="fix_vol_policy">This device has a fixed volume policy that prevents this app from altering the volume.</string>
+    <string name="dis_sound">dis_sound</string>
+    <string name="dis_sound_mus">dis_sound_mus</string>
+    <string name="dis_sound_notif">dis_sound_notif</string>
+    <string name="dis_wifi">dis_wifi</string>
+    <string name="dis_bluetooth">dis_bluetooth</string>
+
+    <string name="en_sound">en_sound</string>
+    <string name="en_sound_summary">Will be reverted to original volume</string>
+    <string name="en_sound_mus">en_sound_mus</string>
+    <string name="en_sound_notif">en_sound_notif</string>
+    <string name="en_wifi">en_wifi</string>
+    <string name="en_bluetooth">en_bluetooth</string>
+
+    <string name="mus_vol">mus_vol</string>
+    <string name="notif_vol">notif_vol</string>
+    <string name ="max_vol">max_vol</string>
+
+    <string name="time_format">hh:mm a</string>
+
+    <string name="dis_header">Disable Options</string>
+    <string name="dis_summary">Functionalities to disable when individual is asleep or countdown timer reaches zero</string>
+    <string name="en_header">Reset Options</string>
+    <string name="en_summary">Functionalities to enable upon manual reset</string>
+    <string name="title_activity_intro">IntroActivity</string>
+
+    <string name="title1">Welcome to SleepTide!</string>
+    <string name="title2">Set up preferences.</string>
+    <string name="title3">Select an option.</string>
+    <string name="title4">And that\'s it!</string>
+
+    <string name="subtitle1">Here\'s how it works.</string>
+    <string name="subtitle2">Select the options you want to disable when you fall asleep and the options to enable when you wake up.</string>
+    <string name="subtitle3">Choose whether to use the smart or the fixed countdown timer. Or, if you\'re waking up, hit \"Reset\" to bring back your desired pre-snooze settings. </string>
+    <string name="subtitle4">When the sensor or countdown timer is running, Z\'s will apppear and remain next to the current time until \"Reset\" is clicked.</string>
+</resources>

@@ -1,0 +1,20 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+    <header
+        android:fragment="com.lumoculus.sleeptide.SettingsFragment"
+        android:title="@string/dis_header"
+        android:summary="@string/dis_summary">
+        <extra
+            android:name="@string/settings_frag"
+            android:value="@string/dis_header"/>
+    </header>
+
+    <header
+        android:fragment="com.lumoculus.sleeptide.SettingsFragment"
+        android:title="@string/en_header"
+        android:summary="@string/en_summary">
+        <extra
+            android:name="@string/settings_frag"
+            android:value="@string/en_header"/>
+    </header>
+
+</preference-headers>

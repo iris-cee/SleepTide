@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/dis_header">
+        <CheckBoxPreference
+            android:title = "Sound"
+            android:key = "@string/dis_sound"
+            android:defaultValue="true"/>
+
+            <CheckBoxPreference
+                android:title ="        Music"
+                android:key="@string/dis_sound_mus"
+                android:defaultValue="true"
+                android:dependency="@string/dis_sound"/>
+            <CheckBoxPreference
+                android:title="        Ringtone &amp; Notifications"
+                android:key ="@string/dis_sound_notif"
+                android:defaultValue="true"
+                android:dependency="@string/dis_sound"/>
+
+        <CheckBoxPreference
+            android:title = "Wi-Fi"
+            android:key = "@string/dis_wifi"
+            android:defaultValue="false"/>
+        <CheckBoxPreference
+            android:title = "Bluetooth"
+            android:key = "@string/dis_bluetooth"
+            android:defaultValue="false"/>
+</PreferenceScreen>

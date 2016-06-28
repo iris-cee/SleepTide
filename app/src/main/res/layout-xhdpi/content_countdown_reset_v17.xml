@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.lumoculus.sleeptide.CountdownActivity"
+    tools:showIn="@layout/activity_countdown"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextClock
+            android:id="@+id/text_clock"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:format12Hour="@string/time_format"
+            android:textSize="50sp"/>
+        <ImageView
+            android:id="@+id/sleepmode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/text_clock"
+            android:paddingLeft="@dimen/half_margin"
+            android:layout_toRightOf="@id/text_clock"
+            android:src="@drawable/sleepmode_on"/>
+        <ImageButton
+            android:id="@+id/reset_button"
+            android:layout_below="@id/text_clock"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/reset_button"
+            android:onClick="reset"
+            style="?android:attr/borderlessButtonStyle"/>
+    </RelativeLayout>
+</RelativeLayout>
